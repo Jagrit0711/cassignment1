@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/zylon/Documents/assignment1/q2_basic_arithmetic'
+relocations:     []
+...
