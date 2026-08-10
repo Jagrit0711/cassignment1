@@ -7,16 +7,26 @@ main()
     printf("enter three numbers: ");
     scanf("%d %d %d", &a, &b, &c);
 
-    if (a > b && a > c)
+    if (a > b)
     {
-        printf("largest is %d\n", a);
-    }
-    else if (b > a && b > c)
-    {
-        printf("largest is %d\n", b);
+        if (a > c)
+        {
+            printf("largest is %d\n", a);
+        }
+        else
+        {
+            printf("largest is %d\n", c);
+        }
     }
     else
     {
-        printf("largest is %d\n", c);
+        if (b > c)
+        {
+            printf("largest is %d\n", b);
+        }
+        else
+        {
+            printf("largest is %d\n", c);
+        }
     }
 }
